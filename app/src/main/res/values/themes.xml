@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ChangeLanguageAndOnBording" parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blurple</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_circle_24</item>
+        <item name="postSplashScreenTheme">@style/Theme.ChangeLanguageAndOnBording</item>
+    </style>
+</resources>

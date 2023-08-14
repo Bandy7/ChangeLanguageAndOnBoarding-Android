@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Change Language and onBoarding</string>
+
+    <string name="title1">Drive in Peace</string>
+    <string name="description1">Cee is here to help you avoid speed cameras, traffic, accidents and other distractions so you can enjoy a stable ride</string>
+
+    <string name="title2">Data Driven</string>
+    <string name="description2">Get accurate data about your average speed, distance travelled and number of alerts</string>
+
+    <string name="title3">Safer Together</string>
+    <string name="description3">Join the Cee community to get alerts from thousands of users and alert others about possible obstacles on your journey</string>
+
+    <string name="skipButton" translatable="false">Skip</string>
+
+    <string name="home" translatable="false">OK</string>
+
+
+</resources>
