@@ -71,8 +71,9 @@ fun WelcomeScreen(
                         scope.launch {
                             if (pagerState.currentPage == 2) {
                                 welcomeViewModel.saveOnBoardingState(completed = true)
-                                navController.popBackStack()
-                                navController.navigate(Screen.Home.route)
+                                navController.navigate(Screen.Home.route){
+                                    navController.popBackStack(Screen.Language.route, inclusive = true)
+                                }
                             } else {
                                 scope.launch {
                                     pagerState.animateScrollToPage(page = pagerState.currentPage + 1)
@@ -82,8 +83,9 @@ fun WelcomeScreen(
                     },
                     skipAction = {
                         welcomeViewModel.saveOnBoardingState(completed = true)
-                        navController.popBackStack()
-                        navController.navigate(Screen.Home.route)
+                        navController.navigate(Screen.Home.route){
+                            navController.popBackStack(Screen.Language.route, inclusive = true)
+                        }
                     }
                 )
             }
